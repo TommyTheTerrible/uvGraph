@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   height="48"
+   viewBox="0 -960 960 960"
+   width="48"
+   version="1.1"
+   id="svg4"
+   sodipodi:docname="output_FILL0_wght400_GRAD0_opsz48.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs8" />
+  <sodipodi:namedview
+     id="namedview6"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     showguides="true">
+    <sodipodi:guide
+       position="120.58423,691.72347"
+       orientation="1,0"
+       id="guide114"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="839.41577,637.5073"
+       orientation="1,0"
+       id="guide116"
+       inkscape:locked="false" />
+  </sodipodi:namedview>
+  <path
+     id="path274"
+     d="m 180,-840 c -15.99998,0 -29.9922,6.00782 -41.99219,18.00781 C 126.00782,-809.9922 120,-795.99998 120,-780 v 90 h 60 v -90 h 600 v 600 H 180 v -90 h -60 v 90 c 0,15.99998 6.00782,29.9922 18.00781,41.99219 C 150.0078,-126.00782 164.00002,-120 180,-120 h 600 c 15.99998,0 29.9922,-6.00782 41.99219,-18.00781 C 833.99218,-150.0078 840,-164.00002 840,-180 v -600 c 0,-15.99998 -6.00782,-29.9922 -18.00781,-41.99219 C 809.9922,-833.99218 795.99998,-840 780,-840 Z m 233.98438,173.98438 -41.99219,42.03124 L 485,-510 H 80 v 60 h 405 l -113.00781,113.98438 41.99219,42.03124 L 600,-480 Z" />
+</svg>
