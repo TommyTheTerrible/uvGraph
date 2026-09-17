@@ -28,10 +28,10 @@ var renderPasses = [];
 var composers = [];
 
 var conversionSet = [
-    {"name": "SL UV to Wookiee Face and Ears", "output": ["Wookiee_Face", "Wookiee_Ears" ],"dae": "models/SLUV2WookieeFaceEars.dae", "materials": ["Head"], "template": ["images/SLUV_Head.jpg"], "cameras" : [0, 1], "reverse":false },
+    {"name": "SL UV to Wookiee Face and Ears", "output": ["Lelutka_Face", "Lelutka_Ears" ],"dae": "models/SLUV2WookieeFaceEars.dae", "materials": ["Head"], "template": ["images/SLUV_Head.jpg"], "cameras" : [0, 1], "reverse":false },
     {"name": "Wookiee Face and Ears to SL UV", "output": ["SLUV_Head"],"dae": "models/WookieeFaceEars2SLUV.dae", "materials": ["Head", "Ear"], "template": ["images/Wookiee_Face.png","images/Wookiee_Ears.png"], "cameras" : [0], "reverse":false},
-    {"name": "SL UV to Wookiee Mouth, Eyes and Brow", "output": ["Wookiee_Mouth", "Wookiee_Eyes" ,"Wookiee_Brow"],"dae": "models/SLUV2WookieMakeup.dae", "materials": ["Head"], "template": ["images/SLUV_Head.jpg"], "cameras" : [0, 1, 2], "reverse":false },
-    {"name": "SL UV to WahWah Mouth and Eyes", "output": ["Wahwah_Mouth", "Wahwah_Eyes" ],"dae": "models/SLUV2WahwahMakeup.dae", "materials": ["Head"], "template": ["images/SLUV_Head.jpg"], "cameras" : [0, 1], "reverse":false },
+    {"name": "SL UV to Wookiee Mouth, Eyes and Brow", "output": ["Lelutka_Mouth", "Lelutka_Eyes" ,"Lelutka_Brow"],"dae": "models/SLUV2WookieMakeup.dae", "materials": ["Head"], "template": ["images/SLUV_Head.jpg"], "cameras" : [0, 1, 2], "reverse":false },
+    {"name": "SL UV to WahWah Mouth and Eyes", "output": ["Catwa_Mouth", "Catwa_Eyes" ],"dae": "models/SLUV2WahwahMakeup.dae", "materials": ["Head"], "template": ["images/SLUV_Head.jpg"], "cameras" : [0, 1], "reverse":false },
     {"name": "Smegacy Top, Bottom and Extra to SL UV Top and Bottom", "output": ["SLUV_Top", "SLUV_Bottom"], "dae": "models/Smegacy2SLUV.dae", "materials": ["Top", "Bottom", "Extra"], "template": ["images/SLUV_Head.jpg", "images/SLUV_Head.jpg", "images/SLUV_Head.jpg"], "cameras" : [0, 1], "reverse":false },
     {"name": "SL UV to Wookiee Mouth, Eyes and Brow", "output": ["SLUV_Head"],"dae": "models/SLUV2WookieMakeup.dae", "materials": ["Mouth", "Left Eye", "Brow"], "template": ["images/Wookiee_Mouth.png", "images/Wookiee_Eyes.png", "images/Wookiee_Brow.png" ], "cameras" : [0], "reverse":true },
     {"name": "SL UV to WahWah Mouth and Eyes", "output": ["SLUV_Head"],"dae": "models/SLUV2WahwahMakeup.dae", "materials": ["Mouth", "Eye"], "template": ["images/Wahwah_Mouth.png","images/Wahwah_Eyes.png"], "cameras" : [0], "reverse":true },    
