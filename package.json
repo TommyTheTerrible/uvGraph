@@ -1,0 +1,24 @@
+{
+  "name": "uvgraph",
+  "version": "0.3.0",
+  "description": "Web app to convert textures between standard Second Life UV maps.",
+  "homepage": "https://github.com/TommyTheTerrible/uvGraph#readme",
+  "bugs": {
+    "url": "https://github.com/TommyTheTerrible/uvGraph/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TommyTheTerrible/uvGraph.git"
+  },
+  "license": "MIT",
+  "author": "TommyTheTerrible",
+  "type": "commonjs",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "esbuild": "^0.28.2",
+    "three": "^0.186.0"
+  }
+}

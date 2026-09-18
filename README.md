@@ -9,6 +9,8 @@ or on my main site:
 
 https://www.tommytheterrible.com/Projects/uvGraph/
 
-Bundled Javascript with ESBUILD.
+Bundled Javascript with ESBUILD, to update:
 
-esbuild UVgraph_20230731.js --bundle --minify --outfile=uvGraph-threejs-bundled.js
+npm install
+
+npx esbuild UVgraph_20230731.js --bundle --minify --outfile=uvGraph-threejs-bundled.js
