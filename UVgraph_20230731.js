@@ -1,6 +1,6 @@
 
 import * as THREE from './threejs-uvgraph.js';
-import './readTGA.js';
+import * as TGA from './readTGA.js';
 
 //import * as THREE from './threejs-uvgraph-bundle.js';
 
@@ -386,7 +386,7 @@ function readImage(imgFile, index, readImageCallback=false, name=""){
     reader.onload = function(e){
         var data = e.target.result;
         if (fileType == "image/targa"){            
-            var tga = new TGA();
+            var tga = new TGA.TGA();
             tga.load(new Uint8Array(data));
             data = tga.getDataURL('image/png');
         }
